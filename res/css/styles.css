@@ -1,0 +1,22 @@
+.footer {
+    background-color: #cce2f0;
+    padding-top: 10px;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:28em) {
+    #center {
+        width:70%;
+    }
+}
+
+@media screen and (min-width:50em) {
+    #center {
+        width:33%;
+    }
+}
